@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --bg: #006e89;
     --bg-dark: #00556a;
     --bg2: #fff;
+    --bg: #006e89;
 }
 
 *{
     box-sizing: border-box;
-    outline: 0;
     margin: 0;
+    outline: 0;
     padding: 0;
 }
 
@@ -21,19 +21,20 @@ body{
 }
 
 .container{
-    max-width: 620px;
-    margin: 70px auto;
-    border: 1px solid black;
-    padding: 20px;
     background-color: var(--bg2);
     border-radius: 9px;
+    border: 1px solid black;
+    margin: 70px auto;
+    max-width: 620px;
+    padding: 20px;
 }
 
 .imc-valor,
 .resultado {
     display: inline-block;
-    width: 45%; /* Adjust the width as needed */
     vertical-align: top;
+    width: 45%; 
+    width: 45%; 
 }
 
 .imc-valor h2,
@@ -53,8 +54,8 @@ body{
 
 form input, form label, form button{
     display: block;
-    width: 100%;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 form input{
@@ -68,13 +69,13 @@ form input:focus{
 }
 
 form button{
-    border: none;
     background: var(--bg);
+    border: none;
     color: var(--bg2);
+    cursor: pointer;
     font-size: 18px;
     font-weight: 700;
     height: 50px;
-    cursor: pointer;
     margin-top: 30px;
 }
 form button:hover{
